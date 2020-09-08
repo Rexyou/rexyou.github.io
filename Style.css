@@ -58,6 +58,8 @@ header .nav ul li a{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    width: 100%;
+    height: auto;
     opacity: 0.5;
     top: 0;
     left: 0;
