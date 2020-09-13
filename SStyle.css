@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.coverpage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/marvels-avengers/1/17/Marvel_s_Avengers_Preview_Screenshot_3_-_Embargo_5.8.2020_1400BST_1500CET.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.startingpage{
+    position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.startingpage button{
+    font-size: 5vw;
+    text-shadow: 2px 2px 5px black;
+    background-color: transparent;
+    border: 10px solid white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.startingpage button:hover {
+    cursor: pointer;
+    transform: scale(1.5,1.5);
+    transition-duration: 0.8s;
+}
+
+
+
+
