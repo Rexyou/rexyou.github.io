@@ -7,10 +7,7 @@
 
 html, body{
     width: 100%;
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
+    overflow-x: hidden;
 }
 
 a{
@@ -64,6 +61,8 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding-left: env(safe-area-inset-left); /* Apply safe area */
+    padding-right: env(safe-area-inset-right);
 }
 
 .intro{
@@ -140,5 +139,12 @@ header{
 
     .intro h1{
         font-size: 2.5em;
+    }
+}
+
+@supports(padding:max(0px)) {
+    body, header, footer {
+        padding-left: min(0vmin, env(safe-area-inset-left));
+        padding-right: min(0vmin, env(safe-area-inset-right));
     }
 }
