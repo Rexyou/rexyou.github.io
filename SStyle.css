@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Syne', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+    padding: env(safe-area-inset);/*Special code for iphone*/
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo, .navbar ul {
+    display: flex;
+}
+
+header{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    height: 20%;
+    min-height: 120px;
+    align-items: center;
+    color: rgb(247, 236, 236);
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo h1{
+    font-size: 8em;
+}
+
+.navbar {
+    flex: 1;
+}
+
+.navbar ul{
+    justify-content: space-around;
+}
+
+.navbar ul li a {
+    font-size: 1.5em;
+    color: white;
+}
+
+.coverpage {
+    height: 100vh;
+    width: 100%;
+    background: url("https://www.starregister.org/images/starsBg-wide.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    left: 0;
+    margin: 0 auto;
+    color: white;
+}
+
+.intro h1{
+    font-size: 6em;
+}
+
+.intro a{
+    font-size: 2.5em;
+    color: white;
+}
+
+.portfolio{
+    height: 100vh;
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    .logo h1{
+        font-size: 6em;
+        
+    }
+
+    .navbar ul li a {
+        font-size: 1.5em;
+    }
+
+    .intro h1{
+        font-size: 5em;
+    }
+    
+    .intro a{
+        font-size: 2em;
+    }
+}
+    
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+
+    .logo h1{
+        font-size: 6em;
+        
+    }
+
+    .navbar ul li a {
+        font-size: 1em;
+    }
+
+    .intro h1{
+        font-size: 4em;
+    }
+    
+    .intro a{
+        font-size: 1em;
+    }
+}
+    
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+    .logo h1{
+        font-size: 4em;
+        
+    }
+
+    .intro h1{
+        font-size: 2.5em;
+    }
+}
