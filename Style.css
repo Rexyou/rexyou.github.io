@@ -12,11 +12,6 @@ html, body{
     
 }
 
-body{
-     padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
-}
-
 /*coverpage*/
 header{
     position: relative;
