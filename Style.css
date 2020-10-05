@@ -9,9 +9,6 @@
 html, body{
     width: 100%;
     overflow-x: hidden;
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
-
 }
 
 /*coverpage*/
@@ -889,13 +886,5 @@ text-align: center;}
 
     .mySlides:nth-child(3) h3{
         padding-top: 3px;
-    }
-}
-
-
-@supports(padding:max(0px)) {
-    *{
-        padding-left: min(0vmin, env(safe-area-inset-left));
-        padding-right: min(0vmin, env(safe-area-inset-right));
     }
 }
