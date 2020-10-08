@@ -110,7 +110,7 @@
 .coverpage {
     height: 100vh;
     width: 100%;
-    background: url("Image/Coverpage.jpg");
+    background: url("Coverpage.jpg");
     /*background pictures taken by myself*/
     background-position: center center;
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@
 .leftcontainer {
     height: 100%;
     z-index: 0;
-    background: url("Image/Profilepictures.jpg");
+    background: url("Profilepictures.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -413,7 +413,7 @@ text-align: center;}
 
 .personalcontact{
     flex: 2;
-    background:url("Image/Lastpagecover.jpg");
+    background:url("Lastpagecover.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -555,7 +555,7 @@ text-align: center;}
     }
 
     .coverpage{
-        background: url("Image/Coverpage2.jpg");
+        background: url("Coverpage2.jpg");
         background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
