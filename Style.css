@@ -420,12 +420,12 @@ text-align: center;}
 
 /*animation*/
 @keyframes header {
-    0% {top: -1000px;}
+    0% {top: -100%;}
     100% {top: 0px;}
 }
 
 @keyframes burger {
-    0% {top: -1000px;}
+    0% {top: -100%;}
     100% {top: 5%;}
 }
 
